@@ -11,45 +11,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e50704b3-29d6-4c66-8c98-6cd7370df9f8" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/htdocs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/indexSansGrid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/knacss.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAAFFICHE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAPHOTO1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAPHOTO2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAPHOTO3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAPHOTO4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/FORSAMAPHOTO5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/OHMERCYAFFICHE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/OHMERCYPHOTO1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/OHMERCYPHOTO3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/OHMERCYPHOTO5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/OHMERCYPHOTO6.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/ONCEUPONATIMEINHOLLYWOODAFFICHE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/ONCEUPONATIMEINHOLLYWOODPHOTO1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/ONCEUPONATIMEINHOLLYWOODPHOTO2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/ONCEUPONATIMEINHOLLYWOODPHOTO3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/ONCEUPONATIMEINHOLLYWOODPHOTO5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THEBRAAFFICHE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THEBRAPHOTO2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THEBRAPHOTO4.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THEBRAPHOTO5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THEBRAPHOTO6.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THECOUNTYAFFICHE.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THECOUNTYPHOTO1.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THECOUNTYPHOTO2.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THECOUNTYPHOTO3.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/films/THECOUNTYPHOTO5.JPG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/logoCouleur.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addmovie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/moviemanager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deletemovie.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/getmovie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/moviemanager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/info.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +32,15 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 8.0" />
   <component name="ProjectId" id="1kghyVTMYzqZCY504kR2EsnOuYo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -79,18 +50,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="Webserver" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="81">
+    <configuration name="Webserver" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="8080">
       <method v="2" />
     </configuration>
   </component>
@@ -107,6 +85,10 @@
       <workItem from="1606646186374" duration="1481000" />
       <workItem from="1606647786834" duration="9005000" />
       <workItem from="1606815600211" duration="11016000" />
+      <workItem from="1609580761474" duration="7879000" />
+      <workItem from="1609685433808" duration="3699000" />
+      <workItem from="1609766725447" duration="585000" />
+      <workItem from="1610216194230" duration="12197000" />
     </task>
     <servers />
   </component>
@@ -129,57 +111,8 @@
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="349" y="0" key="#PHP" timestamp="1606646223070">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="349" y="0" key="#PHP/0.0.1280.680@0.0.1280.680" timestamp="1606646223070" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606915040331">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606915040331" />
-    <state x="2064" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/1920.0.1920.1040@1920.0.1920.1040" timestamp="1606915009933" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1606911814355" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1606929575385">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606929575385" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1606929575385">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606929575385" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1606929575385">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606929575385" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1606929575385">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606929575385" />
-    <state x="477" y="264" key="NewPhpFileDialog" timestamp="1606909204975">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="477" y="264" key="NewPhpFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1606909204975" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1606915853278">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680/1920.0.1920.1040@0.0.1280.680" timestamp="1606915853278" />
-    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1606134046650" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1606133976788">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1606133976788" />
-    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1606133939636">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="443" y="247" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1280.680@0.0.1280.680" timestamp="1606133939636" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1606682122816">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1606682122816" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606674776514">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1606674776514" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

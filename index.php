@@ -67,5 +67,6 @@ $reponse->closeCursor(); // Termine le traitement de la requête
     <p>Cinéma le parnal, 260 rue St François de Sales 74570 Fillière</p>
 </footer>
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/getmovie.js"></script>
 </body>
 </html>

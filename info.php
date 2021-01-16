@@ -209,3 +209,10 @@ foreach($coordonnees as $cle => $element)
 //[prenom] vaut François
 //[nom] vaut Dupont
 //....
+?>
+
+<input type="text" id="titre" name="titre" required>
+
+<?php
+$_GET['name']
+$_POST['titre']
