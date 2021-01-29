@@ -25,7 +25,7 @@
     try
     {
 // On se connecte à MySQL
-        $bdd = new PDO('mysql:host=localhost;dbname=parnal;charset=utf8', 'root', '5MichelAnnecy');
+        $bdd = new PDO('mysql:host=localhost;dbname=parnal;charset=utf8', 'root', '5MichelAnnecy', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch(Exception $e)
     {
@@ -54,7 +54,7 @@
     <form action="/addmovie.php" method="post" enctype="multipart/form-data">
         <div>
             <label for="titre">Titre du film :</label>
-            <input type="text" id="titreid" name="titre" required>
+            <input type="text" id="titre" name="titre" required>
         </div>
         <div>
             <label for="affiche">Affiche du film: </label>
@@ -66,7 +66,7 @@
         </div>
         <div>
             <label for="duree">Durée:</label>
-            <input type="text" id="duree" name="duree" required>
+            <input type="time" id="duree" name="duree" required>
         </div>
         <div>
             <label for="real">Réalisateur:</label>

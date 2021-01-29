@@ -79,7 +79,7 @@ if (isset($_POST['titre']))
     try
     {
 // On se connecte à MySQL
-        $bdd = new PDO('mysql:host=localhost;dbname=parnal;charset=utf8', 'root', '5MichelAnnecy');
+        $bdd = new PDO('mysql:host=localhost;dbname=parnal;charset=utf8', 'root', '5MichelAnnecy', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch(Exception $e)
     {
@@ -90,7 +90,7 @@ if (isset($_POST['titre']))
     $req = $bdd->prepare('INSERT INTO film (titre,affiche,pays,duree,realisateur,interpretes,synopsis) VALUES 
         (\''.addslashes($_POST['titre']).'\',\''.$_FILES["affiche"]["name"].'\',\''.addslashes($_POST['pays']).'\',\''.addslashes($_POST['duree']).'\',\''.addslashes($_POST['real']).
         '\',\''.addslashes($_POST['interpretes']).'\',\''.addslashes($_POST['synopsis']).'\')');
-    $nbdelete = $req->execute();
+    $nbadded = $req->execute();
 
     header('Location: /moviemanager.php');
     exit;
