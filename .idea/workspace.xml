@@ -11,10 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e50704b3-29d6-4c66-8c98-6cd7370df9f8" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/data/marmitop-schema.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/info.php" beforeDir="false" afterPath="$PROJECT_DIR$/code-cours.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/marmitop-schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data/marmitop-schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,15 @@
       <workItem from="1610216194230" duration="13637000" />
       <workItem from="1610818249008" duration="4132000" />
       <workItem from="1611560202689" duration="4116000" />
-      <workItem from="1611775626956" duration="12719000" />
+      <workItem from="1611775626956" duration="12741000" />
+      <workItem from="1612185668246" duration="2395000" />
+      <workItem from="1612445462423" duration="587000" />
+      <workItem from="1612457338435" duration="305000" />
+      <workItem from="1612458761208" duration="531000" />
+      <workItem from="1612784695825" duration="213000" />
+      <workItem from="1612873580001" duration="598000" />
+      <workItem from="1613978813141" duration="382000" />
+      <workItem from="1614100516884" duration="2481000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1610804456589</created>
@@ -111,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611909704481</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Marmitop - eval">
+      <created>1611912381600</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611912381600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,7 +146,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="Marmitop - eval" />
-    <option name="LAST_COMMIT_MESSAGE" value="Marmitop - eval" />
+    <MESSAGE value="Correction SQL - ajout colonne url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction SQL - ajout colonne url" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

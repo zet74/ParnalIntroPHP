@@ -28,7 +28,7 @@ catch(Exception $e)
 die('Erreur : '.$e->getMessage());
 }
 // On récupère tout le contenu de la table film
-$reponse = $bdd->query('SELECT id,titre FROM film');
+$reponse = $bdd->query('SELECT id,titre FROM film WHERE titre = ' . $nomfilm);
 // On affiche chaque entrée une à une
 while ($donnees = $reponse->fetch())
 {
